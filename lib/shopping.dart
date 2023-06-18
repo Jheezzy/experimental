@@ -23,7 +23,7 @@ class _ShoppingState extends State<Shopping> {
       children: [
         Container(
           margin: EdgeInsets.symmetric(vertical: 100, horizontal: 50),
-          child: Text('MY SHOPPING LIST'),
+          child: Text('MY SHOPPING LIST EXPERIMENT'),
         ),
         ...myList.map((item) => Text(item)),
         Padding(
